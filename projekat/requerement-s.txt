@@ -1,0 +1,12 @@
+Instalacija paketa (iz foldera `projekat`):
+
+python -m pip install ultralytics easyocr torch torchvision pillow opencv-python numpy
+
+Paketi:
+- ultralytics (YOLO)
+- easyocr (OCR)
+- torch
+- torchvision
+- pillow
+- opencv-python
+- numpy

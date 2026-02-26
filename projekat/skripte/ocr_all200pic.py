@@ -170,7 +170,7 @@ def main ():
     base ._get_easyocr_reader ()
     print ("Info: EasyOCR inicijalizovan.")
 
-    project_dir =Path (".").resolve ()
+    project_dir =Path (__file__ ).resolve ().parent .parent
     work_dir_name ="outputs"
     detector_weights_path =r".\outputs\runs\nutrition_yolov8n\weights\best.pt"
 
@@ -191,7 +191,7 @@ def main ():
     ocr_lang ="srp+eng",
     exclude_truth_from_train =False ,
     split_seed =1389 ,
-    detector_weights =(Path (detector_weights_path ).resolve ()if detector_weights_path .strip ()else None ),
+    detector_weights =((project_dir /detector_weights_path ).resolve ()if detector_weights_path .strip ()else None ),
     )
     run_full_pipeline_all200 (cfg )
 

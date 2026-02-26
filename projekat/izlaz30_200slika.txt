@@ -91,20 +91,7 @@ mean_error_signed (pred - truth):
   "ugljeni_hidrati": -3.7153846153846155,
   "proteini": -2.6138121546961326
 }
-accuracy_within_10_percent:
-{
-  "energija": 0.8206521739130435,
-  "masti": 0.621301775147929,
-  "ugljeni_hidrati": 0.6318681318681318,
-  "proteini": 0.48066298342541436
-}
-mape_percent:
-{
-  "energija": 25.481517048669218,
-  "masti": 108.55662166451971,
-  "ugljeni_hidrati": 308.0626775531561,
-  "proteini": 83.19598763366506
-}
+
 ocr_source_counts:
 {
   "crop": 172,
