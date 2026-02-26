@@ -30,64 +30,6 @@ except ImportError :
     from reporting import print_evaluation_summary 
     from yolo_train_utils import load_detector_model ,train_detector 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def run_full_pipeline (cfg ):
     truth =load_truth (cfg .truth_file )
     cfg .work_dir .mkdir (parents =True ,exist_ok =True )
