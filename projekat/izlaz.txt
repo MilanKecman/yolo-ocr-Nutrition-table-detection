@@ -1,0 +1,149 @@
+Ukupne metrike (sve slike):
+processed_images: 30
+samples_with_truth: 30
+coverage:
+{
+  "energija": 1.0,
+  "masti": 0.9,
+  "ugljeni_hidrati": 0.9333333333333333,
+  "proteini": 0.9666666666666667
+}
+mae:
+{
+  "energija": 67.38333333333333,
+  "masti": 4.718518518518518,
+  "ugljeni_hidrati": 4.775,
+  "proteini": 4.93448275862069
+}
+found_count:
+{
+  "energija": 30,
+  "masti": 27,
+  "ugljeni_hidrati": 28,
+  "proteini": 29
+}
+sum_error_signed (zbir pred-truth):
+{
+  "energija": -211.3,
+  "masti": -110.8,
+  "ugljeni_hidrati": -76.3,
+  "proteini": -101.3
+}
+mean_error_signed (pred - truth):
+{
+  "energija": -7.043333333333334,
+  "masti": -4.103703703703704,
+  "ugljeni_hidrati": -2.7249999999999996,
+  "proteini": -3.493103448275862
+}
+avg_diff_from_sum_div_count (sum(diff)/broj):
+{
+  "energija": -7.043333333333334,
+  "masti": -4.103703703703704,
+  "ugljeni_hidrati": -2.725,
+  "proteini": -3.493103448275862
+}
+accuracy_within_10_percent:
+{
+  "energija": 0.7666666666666667,
+  "masti": 0.5925925925925926,
+  "ugljeni_hidrati": 0.7857142857142857,
+  "proteini": 0.4827586206896552
+}
+mape_percent:
+{
+  "energija": 31.315866624178728,
+  "masti": 35.596905980708534,
+  "ugljeni_hidrati": 145.13392121939899,
+  "proteini": 82.10671359188257
+}
+ocr_source_counts:
+{
+  "crop": 26,
+  "full_fallback": 4
+}
+detector_reason_counts:
+{}
+detector_selection_counts:
+{
+  "best_confidence_like_YoloVSTruthLabels": 30
+}
+
+Broj slika tacno uradjenih (sva 4 nutrienta unutar 20%): 7
+Broj slika tacno uradjenih (3/4 nutrienta unutar 20%): 15
+
+
+------------------------------------------------------------
+Ukupne metrike (sve slike):
+processed_images: 200
+samples_with_truth: 200
+coverage:
+{
+  "energija": 0.92,
+  "masti": 0.845,
+  "ugljeni_hidrati": 0.91,
+  "proteini": 0.905
+}
+mae:
+{
+  "energija": 53.323913043478264,
+  "masti": 5.304733727810651,
+  "ugljeni_hidrati": 12.735164835164836,
+  "proteini": 4.541988950276243
+}
+found_count:
+{
+  "energija": 184,
+  "masti": 169,
+  "ugljeni_hidrati": 182,
+  "proteini": 181
+}
+sum_error_signed (zbir pred-truth):
+{
+  "energija": -2405.4000000000005,
+  "masti": -523.9,
+  "ugljeni_hidrati": -676.2,
+  "proteini": -473.1
+}
+mean_error_signed (pred - truth):
+{
+  "energija": -13.072826086956525,
+  "masti": -3.1,
+  "ugljeni_hidrati": -3.7153846153846155,
+  "proteini": -2.6138121546961326
+}
+avg_diff_from_sum_div_count (sum(diff)/broj):
+{
+  "energija": -13.072826086956525,
+  "masti": -3.0999999999999996,
+  "ugljeni_hidrati": -3.7153846153846155,
+  "proteini": -2.6138121546961326
+}
+accuracy_within_10_percent:
+{
+  "energija": 0.8206521739130435,
+  "masti": 0.621301775147929,
+  "ugljeni_hidrati": 0.6318681318681318,
+  "proteini": 0.48066298342541436
+}
+mape_percent:
+{
+  "energija": 25.481517048669218,
+  "masti": 108.55662166451971,
+  "ugljeni_hidrati": 308.0626775531561,
+  "proteini": 83.19598763366506
+}
+ocr_source_counts:
+{
+  "crop": 172,
+  "full_fallback": 28
+}
+detector_reason_counts:
+{}
+detector_selection_counts:
+{
+  "best_confidence_like_YoloVSTruthLabels": 200
+}
+
+Broj slika tacno uradjenih (sva 4 nutrienta unutar 20%): 43
+Broj slika tacno uradjenih (3/4 nutrienta unutar 20%): 84

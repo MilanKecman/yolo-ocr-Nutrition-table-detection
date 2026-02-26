@@ -10,3 +10,22 @@ Paketi:
 - pillow
 - opencv-python
 - numpy
+
+
+---------------------------------
+Pokretanje od 0 : treniranje YOLO 
+
+u main : 1785 linija
+    mode ="train"
+    detector_weights_path =""
+
+izbrisati id /outputs/runs/nutrition_yolov8n folder
+
+Pokretanje sa vec istreniranim YOLO modelom (rezultatima koje je YOLO dao iz prethodnog porketanja )
+u main : 1785 linija
+
+	mode = "auto"
+	detector_weights_path = r".\outputs\runs\nutrition_yolov8n\weights\best.pt"
+
+Potrebno:
+      da postoji fajl best.pt u /outputs/runs/nutrition_yolov8n/weights/
