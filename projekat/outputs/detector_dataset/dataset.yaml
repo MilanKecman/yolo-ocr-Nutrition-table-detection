@@ -1,0 +1,6 @@
+path: C:/Users/Milan/Desktop/soft/projekat/outputs/detector_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: nutrition_table
